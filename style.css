@@ -1,34 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
-    color: #0d47a1;
+    background-color: #f0f8ff;
+    color: #3a3a3a;
     margin: 0;
     padding: 0;
-    line-height: 1.8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #01579b;
+    color: #4a90e2;
     text-align: center;
     margin: 20px 0;
-    font-weight: 600;
-    line-height: 1.4;
 }
 
 p {
-    color: #0277bd;
+    color: #555555;
     line-height: 1.8;
-    margin: 10px auto;
-    max-width: 800px;
+    margin: 10px 0;
     padding: 0 15px;
-    text-align: justify;
 }
 
 .button {
-    background-color: #01579b;
+    background-color: #4caf50;
     color: #ffffff;
     border: none;
-    border-radius: 25px;
+    border-radius: 8px;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
@@ -37,33 +32,12 @@ p {
     font-weight: bold;
     margin: 10px 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-    background-color: #014a85;
-    transform: scale(1.05);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    p {
-        padding: 0 10px;
-    }
-
-    .button {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
+    background-color: #43a047;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
